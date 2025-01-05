@@ -8,34 +8,10 @@ redirect_from:
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
-<span class='anchor' id='about-me'></span>
-
 
 I am a Research Fellow in the Parallel & Distributed Computing Lab (PDCL) at Nanyang Technological University ([NTU](https://www.ntu.edu.sg/)), advised by Prof. [Xueyan Tang](https://personal.ntu.edu.sg/asxytang/). I obtained my Ph.D. degree at Sun Yat-Sen University（[SYSU](https://www.sysu.edu.cn/)), supervised by Prof. [Lin Chen](https://chen-website.github.io/). Before that, I received my M.E. degree at Central South University ([CSU](https://en.csu.edu.cn/index.htm)), mentored by Prof. [Zhigang Chen](https://faculty.csu.edu.cn/chenzhigang/zh_CN/index/8285/list/index.htm), and my B.E. degree at Nanchang University ([NCU](https://english.ncu.edu.cn/)). I also work closely with Prof. [Jihong Yu](https://pure.bit.edu.cn/zh/persons/jihong-yu).  
 
 
-我将博士毕业于湖北武汉的 华中科技大学 机械科学与工程学院，我的导师是康宜华教授。本科毕业于四川成都的 四川大学 制造科学与工程学院（现机械工程学院）。包括合著，我已经发表 20+ 篇学术论文
- <a href='https://scholar.google.com/citations?user=WMkMTb4AAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=引用"></a>。
-
-我的研究领域包括：
-- 仪器仪表
-- 机械工程
-- 电磁无损检测
-- 漏磁检测
-- 涡流检测
-- 磁传感器
-- 无损检测装备开发
-  
-
-
-<span class='anchor' id='-xl'></span>
 
 # 🎓 学历
 - *2016.06 - 2022.12*, <a href="https://www.hust.edu.cn/"><img class="svg" src="/images/HUST_logo.svg" width="23pt"></a> 华中科技大学 机械科学与工程学院, 湖北武汉, 推免直博 
